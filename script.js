@@ -24,3 +24,18 @@ $(window).scroll(function() {
     $('.top_up').fadeOut();
   }
 });
+
+//отправка формы
+$(document).ready(function(){
+
+	$('#form').submit(function() {
+		$.ajax({
+			type: 'POST',
+			url: mail.php,
+			data: $(this).serialize(),
+		}).done(function(){
+			alert("Ваша заявка отправлена");
+		});
+		return false;
+	})
+});

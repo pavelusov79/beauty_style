@@ -41,7 +41,7 @@
 		<p><strong>Юлия +7(950)285-76-25</strong> - услуги лешмейкера: ламинирование и наращивание ресниц</p>
 	</div>
 	<div class="contpage">
-		<form method="post" action="#">
+		<form id="form" method="post" action="#">
             <p id="label">Ваше имя</p>
             <input class="input" type="text" name="name" pattern="[а-ЯА-Я]{2,9}" placeholder="введите имя" required>
             <p>Ваш тел.</p>
@@ -60,7 +60,7 @@
         		<option value="lash">Наращивание ресниц</option>
         	</select>
             <p>Дата, время</p>
-            <input type="date" required="required"><br>
+            <input type="date" name="date" required="required"><br>
             <select class="time" name="time" id="time" required="required">
             	<option value="">Выберите время</option>
             	<option value="">9:00</option>
