@@ -8,16 +8,16 @@ $(function() {
   $('.top_up').click(function() {
     // переместиться в верхнюю часть страницы
     $("html, body").animate({
-      scrollTop:0
-    },1000);
+      scrollTop:0},1000);
   })
 })
 // при прокрутке окна (window)
 $(window).scroll(function() {
-  // если пользователь прокрутил страницу более чем на 200px
+  // если пользователь прокрутил страницу более чем на 700px
   if ($(this).scrollTop()>700) {
     // то сделать кнопку top_up видимой
     $('.top_up').fadeIn();
+    $('.top_up').css({display:"flex"});
   }
   // иначе скрыть кнопку top_up
   else {

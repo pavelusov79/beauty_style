@@ -532,7 +532,9 @@ form input, form select {
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	display: none;
 }
+
 .top_up:hover {
 	border: 1px solid;
 }
