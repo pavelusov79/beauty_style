@@ -513,6 +513,29 @@ form input, form select {
 	justify-content: center;
 	margin: 0 auto;
 }
+/*кнопка наверх*/
+.top_up {
+	transform: rotate(90deg);
+	max-width: 40px;
+	max-height: 40px;
+	width: 2.2rem;
+	height: 2.2rem;
+	border-radius: 50%;
+	border: 1px solid #D3D3D3;
+	background: #D3D3D3;
+	font-size: 1.7rem;
+	position: fixed;
+	bottom: 30px;
+	right: 1.9rem;
+	color: #808000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.top_up:hover {
+	border: 1px solid;
+}
 
 /* footer styles*/
 footer {
